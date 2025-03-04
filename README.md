@@ -1,10 +1,9 @@
 # PELATIHAN LINUX SISOP
   
-1.Mengunduh program wget, unzip, xxd && membuat folder "artists_who_can_sing" 
+1. Mengunduh program wget, unzip, xxd && membuat folder "artists_who_can_sing" 
   ````
  sudo apt install && wget --no-check-certificate "https://drive.google.com/uc?export=download&id=1lV1HVmPTY_BOAK6ToXymRu7V5eVfR0ut" -O nadia.zip
   ````
-   
 2. Mendownload file zip menggunakan wget
   ````
   wget --no-check-certificate "https://drive.google.com/uc?export=download&id=1lV1HVmPTY_BOAK6ToXymRu7V5eVfR0ut" -O nadia.zip
@@ -38,13 +37,13 @@ cd singing_tutorials/ && ls -la
   ````
 9. Membuat file bernama ransom.moolah && mengecek keadaan
   ````
-
+ touch ransom.moolah && ps aux
+  ````  
+10. Mematikan process tersebut & memastikan bahwa programnya sudah mati.
   ````
-   
-  1.a
+ kill -9 <PID> && ps aux 
   ````
+11. Membuat user “yabadabadoo" dalam sudoers group & login sebagai user 
   ````
-   
-  1.a
-  ````
+ sudo adduser yabadabadoo && sudo usermod yabadabadoo -aG sudo && su - yabadabadoo
   ````
