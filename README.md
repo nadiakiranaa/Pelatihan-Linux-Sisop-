@@ -43,7 +43,3 @@ cd singing_tutorials/ && ls -la
   ````
  kill -9 <PID> && ps aux 
   ````
-11. Membuat user “yabadabadoo" dalam sudoers group & login sebagai user 
-  ````
- sudo adduser yabadabadoo && sudo usermod yabadabadoo -aG sudo && su - yabadabadoo
-  ````
