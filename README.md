@@ -2,7 +2,7 @@
   
 1. Mengunduh program wget, unzip, xxd & membuat folder "artists_who_can_sing" 
   ````
- sudo apt install & wget --no-check-certificate "https://drive.google.com/uc?export=download&id=1lV1HVmPTY_BOAK6ToXymRu7V5eVfR0ut" -O nadia.zip
+ sudo apt install && mkdir artist_who_can_singing && cd artist_who_can_singing 
   ````
 2. Mendownload file zip menggunakan wget
   ````
